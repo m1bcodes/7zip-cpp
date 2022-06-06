@@ -17,6 +17,7 @@ namespace intl
 		bool		IsDirectory = false;
 		bool		memFile = false;
 		void*		memPointer = nullptr;
+		ULONG		crc = 0;
 	};
 
 	struct FilePathInfo : public FileInfo

@@ -93,6 +93,10 @@ namespace SevenZip
 			archive->GetProperty(i, kpidAttrib, &prop);
 			info.Attributes = prop.uintVal;
 
+			// Get CRC
+			archive->GetProperty(i, kpidCRC, &prop);
+			info.crc = prop.ulVal; 
+
 			// pass back the found value and call the callback function if set
 			if (callback)
 			{
