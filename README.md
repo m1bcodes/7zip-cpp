@@ -1,5 +1,9 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/11i6cncafgey8lt3?svg=true)](https://ci.appveyor.com/project/getnamo/7zip-cpp)
 
+# What's new in this fork?
+Added access to CRC of the files inside the archives. 
+Added project files for VS2022.
+
 # 7zip-cpp
 A fork of [SevenZip++](http://bitbucket.org/cmcnab/sevenzip/wiki/Home) for modern builds. Uses cmake to generate build files for desired Visual Studio version, see [setup section for instructions](https://github.com/getnamo/7zip-cpp#using-git-and-cmake).
 
